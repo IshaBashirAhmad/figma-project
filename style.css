@@ -223,12 +223,12 @@ footer {
 }
 
 .footer-header {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 22px;
     text-align: left;
     color: #000000;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 footer .nav-link {
@@ -237,4 +237,10 @@ footer .nav-link {
     line-height: 24px;
     text-align: left;
     color: #494949;
+    padding: 8px 0px !important;
+}
+
+.col-3 {
+    
+    width: 25% !important;
 }

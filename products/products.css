@@ -227,3 +227,138 @@
 .product-image-info > span:last-of-type{
     color: #8EC549;
 }
+/* pagination */
+
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.pagination  .pagination-list{
+    display: flex;
+    align-items:center ;
+    gap: 5px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 11px 4px #0000000F;
+}
+.pagination  .pagination-list > .pagination-items{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #778088;
+}
+
+/* services */
+
+.services-container {
+    padding: 50px 70px;
+    width: 100%;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 11px 4px #0000000F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.services-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.services-container > .services-content > .service-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-text > span:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 19.8px;
+    text-align: left;
+}
+
+.service-text > span:last-of-type {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16.5px;
+    text-align: left;
+    color: #454545;
+}
+
+
+/* footer */
+
+.footer-container {
+    max-width: 100% !important;
+    background: #FCFCFC;
+    padding-top: 60px;
+}
+
+footer {
+    padding-left: 2.6%;
+    padding-right: 2.6%;
+}
+.footer-logo{
+    display: flex;
+}
+
+.footer-contect{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-contect span:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #000000;
+}
+.footer-contect span:last-child {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #494949;
+}
+
+.footer-header {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+footer .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #494949;
+    padding: 8px 0px !important;
+}
+
+.col-3 {
+    
+    width: 25% !important;
+}
