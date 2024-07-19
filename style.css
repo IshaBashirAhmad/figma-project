@@ -82,7 +82,7 @@
 }
 
 .shows-container{
-    margin: 90px 0px;
+    margin: 90px 0px 28px 0px;
     display: flex;
     flex-direction: column;
     gap: 20px;
